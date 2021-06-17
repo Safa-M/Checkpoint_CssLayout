@@ -1,0 +1,79 @@
+body
+{
+    color:#5b5072;
+    font-family: sans-serif;
+}
+.docplaner_logo
+{
+    width:268px ;
+    height:33px;
+
+}
+.docplanner_navbar
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+a{
+    color: #5b5072;
+    display: inline;
+    text-decoration: none;
+}
+.isactive 
+{
+    color: #00b39b;
+}
+.introduction
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction_logo
+{
+    display: block; 
+    width:40px ;
+    height:39px ;
+}
+.introduction_title
+{
+    color:#00b39b ;
+}
+.introduction_prag
+{
+    display: flex;
+    margin: 5%;
+    padding: 2%;
+}
+.services_card
+{
+    display: flex;
+    color: white;
+}
+.services
+{
+    margin: 20px;
+    border-radius: 5px;
+    padding:20px ;
+}
+
+.services.service_patient
+{
+    background-color: #00ccb1;
+}
+.services.service_doctor
+{
+    background-color: #3d83df;
+}
+.services.service_clinics
+{
+    background-color: #1b2734;
+}
+
+
+.hh {
+    color: red;
+    font-size: 30px;
+}
